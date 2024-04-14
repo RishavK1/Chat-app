@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Post</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        background-color: aliceblue;
+      }
+      #h3 {
+        color: dodgerblue;
+        /* margin-left: 40%;
+        margin-top: 4rem; */
+        font-size: 1.8rem;
+      }
+      .new {
+        height: 240px;
+        width: 250px;
+        margin-left: 40%;
+        margin-top: 10%;
+        /* background-color: antiquewhite;
+        border-radius: 10px; */
+      }
+      .input {
+        width: 244px;
+        border: 2px solid dodgerblue;
+        text-align: center;
+        border-radius: 0.5rem;
+        height: 25px;
+        color: dodgerblue;
+      }
+      .text {
+        width: 244px;
+        height: 80px;
+        padding: 4px;
+        border: 2px solid dodgerblue;
+        text-align: center;
+        border-radius: 0.5rem;
+        color: dodgerblue;
+      }
+      .btn {
+        background-color: dodgerblue;
+        color: white;
+        border: 2px solid white;
+        border-radius: 0.3rem;
+        height: 2rem;
+        margin-left: 4.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="new">
+      <h3 id="h3">Write a New Chat :</h3>
+
+      <form method="post" action="/chats">
+        <input class="input" placeholder="Who are you ?" name="from" />
+        <br /><br />
+        <textarea  class="text" name="msg" >Write your text here</textarea
+        ><br /><br />
+        <input
+          class="input"
+          placeholder="Add reciever "
+          name="to"
+        /><br /><br />
+        <button class="btn">Create Chat</button>
+      </form>
+    </div>
+  </body>
+</html>

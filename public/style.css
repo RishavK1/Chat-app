@@ -1,0 +1,60 @@
+body {
+  margin-left: 20px;
+}
+
+.chat {
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 16px;
+  display: inline-block;
+  border: 1px solid dodgerblue;
+}
+
+.msg {
+  background-color: dodgerblue;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 16px;
+}
+#new {
+  background-color: dodgerblue;
+  border-radius: 16px;
+  color: white;
+  border: none;
+  height: 38px;
+  width: 170px;
+}
+#edit {
+  border: none;
+  background-color: white;
+  color: dodgerblue;
+  border-radius: 8px;
+  height: 20px;
+  width: 40px;
+  border: 1px solid dodgerblue;
+  padding: 0.1rem;
+}
+.h2 {
+  height: 80px;
+  width: 170px;
+  border: 1px solid dodgerblue;
+  text-align: center;
+  border-radius: 16px;
+  margin-bottom: 10px;
+  background-color: aliceblue;
+}
+.all {
+  font-size: 1.5rem;
+  color: dodgerblue;
+  padding: 5px;
+}
+
+.h3{
+    color: dodgerblue;
+}
+#post{
+    color: dodgerblue;
+}
+.ed{
+    background-color: aliceblue;
+}
